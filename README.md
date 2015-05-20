@@ -1,2 +1,2 @@
-# grid
-A basic responsive grid
+# Grid
+A basic responsive grid.
