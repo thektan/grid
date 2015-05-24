@@ -53,9 +53,10 @@ Inside the grid, use the `row` class to define each row.
 Each row will contain columns. The columns in each row must equal to a width of 100% which mean the parts must equal to the total in each row. Column classes start with `.col` and have the following structure:
 `.col-[part]-[total]`
 
-For example the following column is 35/100: `.col-35-100`
-80/100: `.col-80-100`
-1/3: `.col-1-3`
+For example the following column is 
++ 35/100: `.col-35-100`
++ 80/100: `.col-80-100`
++ 1/3: `.col-1-3`
 
 The current possible column totals are:
 + `100`
@@ -94,6 +95,7 @@ Below are all the current possible column classes.
 .col-5-6
 ```
 
+
 Here is a complete example of a grid with 2 rows. The first row has 4 columns at equal size, and the second row has 3 columns at varying sizes. Notice how the same total column number is the same within each row.
 ```html
 <div class="grid">
@@ -105,8 +107,8 @@ Here is a complete example of a grid with 2 rows. The first row has 4 columns at
     </div>
     <div class="row">
         <div class="col-1-6"><div class="content"></div></div>
-        <div class="col-1-6"><div class="content"></div></div>
-        <div class="col-4-6"><div class="content"></div></div>
+        <div class="col-3-6"><div class="content"></div></div>
+        <div class="col-2-6"><div class="content"></div></div>
     </div>
 </div>
 ```
